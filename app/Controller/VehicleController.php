@@ -35,7 +35,7 @@ class VehicleController extends BaseController
         try {
             $dto = new VehicleDTO();
             $dto->id = $id ?: null;
-            $dto->registrationNumber = $data->registration_number;
+            $dto->registrationNumber = $data->registrationNumber;
             $dto->brand = $data->brand;
             $dto->model = $data->model;
             $dto->type = $data->type;
